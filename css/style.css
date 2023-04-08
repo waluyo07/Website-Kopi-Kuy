@@ -35,17 +35,21 @@ section {
 }
 
 h1 {
-   font-size: 40px;
+   font-size: 50px;
+   font-weight: bolder;
+   color: rgb(40, 124, 96);
 }
 
+
 h2 {
-   font-size: 35px;
+   font-size: 50px;
    text-align: center;
    margin-bottom: 30px;
+   color: rgb(40, 124, 96);
 }
 
 p.sub {
-   font-size: 18px;
+   font-size: 32px;
    width: 800px;
    max-width: 100%;
    text-align: center;
@@ -61,8 +65,8 @@ video {
 /* Navigasi */
 
 nav {
-   background-color: rgb(13, 36, 13);
-   padding-left: 30px;
+   background-color: rgb(10, 44, 75);
+   padding-left: 50px;
    padding-right: 30px;
 }
 
@@ -82,7 +86,7 @@ nav .baris {
 }
 
 .logo {
-   height: 40px;
+   height: 60px;
 }
 
 nav button {
@@ -114,6 +118,7 @@ header {
    padding-left: 50px;
    padding-top: 80px;
    padding-bottom: 80px;
+   background-color: rgba(252, 235, 235, 0.959);
 }
 
 header .baris {
@@ -136,12 +141,18 @@ header .kiri h1 {
 
 header .kiri p.tagline {
    margin-bottom: 20px;
-   font-size: 20px;
+   font-size: 25px;
+   text-align: justify;
+   background-color: blanchedalmond;
+   border-radius: 7%;
 }
 
 header .kiri .cta p {
-   font-size: 16px;
-   margin-bottom: 20px;
+   font-size: 22px;
+   margin-bottom: 25px;
+   margin-top: 25px;
+   font-weight: bold;
+  
 }
 
 header .kiri .cta a {
@@ -149,13 +160,16 @@ header .kiri .cta a {
 }
 
 header .kiri .cta img {
-   height: 50px;
+   height: 80px;
 }
 
 /* Best Seller */
 
 .best-seller {
-   background-color: rgb(232, 219, 190);
+   background-color: rgb(247, 231, 231);
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 .best-seller .produk {
@@ -164,43 +178,62 @@ header .kiri .cta img {
    text-align: center;
 }
 
+.best-seller .produk img {
+   border-radius: 25%;
+}
+
 .best-seller .produk p {
    font-weight: bold;
    margin-top: 20px;
-   font-size: 20px;
+   font-size: 30px;
 }
 
 /* About Us */
 
 section.about-us {
-
-   margin-left: auto;
-   margin-right: auto;
    text-align: center;
+   background-color: rgb(234, 253, 197);
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 .about-us .tentang {
    width: 1024px;
    max-width: 90%;
    margin: 10px auto 40px auto;
-   font-size: 18px;
+   font-size: 25px;
+   text-align: justify;
+   background-color: azure;
+   border-radius: 90%;
 }
 
 .about-us img {
-   width: 960px;
    max-width: 100%;
+   width: 1024px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   background-color: black;
 }
 
 .about-us .penjelasan {
-   max-width: 80%;
-   margin: 30px auto 30px auto;
-   font-size: 18px;
+   width: 1024px;
+   max-width: 90%;
+   margin: 10px auto 40px auto;
+   font-size: 25px;
+   text-align: justify;
+   background-color: azure;
+   border-radius: 90%;
 }
 
 /* Our Team */
 
 .our-team {
    background-color: rgb(232, 219, 190);
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 .our-team .baris .tim {
@@ -214,6 +247,17 @@ section.about-us {
 
 .our-team .baris h3 {
    margin-bottom: 15px;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.our-team .baris p {
+   margin-bottom: 15px;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 20px;
+   background-color: #3b3b3b;
+   color: #fff;
 }
 
 /* Review */
@@ -221,6 +265,10 @@ section.about-us {
 .review {
    background-image: url(../images/shapes/9.svg);
    background-size: cover;
+   background-color: aquamarine;
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 .review .baris {
@@ -253,6 +301,12 @@ section.about-us {
 
 section.contact-us {
    margin-bottom: 100px;
+   background-image: url(../images/shapes/10.svg);
+   background-size: cover;
+   background-color: rgb(236, 235, 178);
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 .contact-us .baris .kolom {
@@ -268,7 +322,7 @@ section.contact-us {
 /* Footer */
 
 footer {
-   background-color: rgb(13, 36, 13);
+   background-color: rgb(10, 44, 75);
    padding-left: 30px;
    padding-right: 30px;
 }
@@ -310,7 +364,8 @@ footer p {
    }
 
    h1 , h2 , h3 {
-      color: red;
+      color: rgb(182, 7, 7);
+      font-weight: bold;
    }
 
    .navigasi {
@@ -326,14 +381,29 @@ footer p {
       padding-right: 20px;
    }
 
+  .cta p {
+      text-align: center;
+   }
+
+   header .kiri p.tagline {
+      margin-top: 50px;
+      background-color: rgb(241, 245, 243);
+      text-align: center;
+   }
+
    header .kiri {
       width: 100%;
       padding-right: 0;
       text-align: center;
+      background-color: rgb(241, 245, 243);
+      border-radius: 10%;
    }
 
    header .kanan {
       width: 100%;
+      background-color: rgb(241, 245, 243);
+      border-radius: 10%;
+      margin-top: 100px;
    }
 
    .best-seller .produk {
